@@ -5,5 +5,13 @@
   "repository": "git@github.com:yangjiedage/cjs-module.git",
   "author": "zedyang",
   "license": "MIT",
-  "types": "index.d.ts"
+  "types": "index.d.ts",
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  },
+  "scripts": {
+    "build:types": "tsc",
+    "build": "rm -rf lib && yarn build:types",
+    "version": "yarn build"
+  }
 }
