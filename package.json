@@ -1,6 +1,6 @@
 {
   "name": "cjs-module-zed",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "main": "index.js",
   "repository": "git@github.com:yangjiedage/cjs-module.git",
   "author": "zedyang",
